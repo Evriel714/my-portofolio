@@ -1,11 +1,11 @@
 function Home() {
   return (
     <section id="home" className="pt-5">
-      <div className="container mt-5 mb-5 d-flex justify-content-between">
-        <div className="row">
+      <div className="container mt-5 mb-5 d-flex justify-content-between ">
+        <div className="row align-items-center">
           <div id="left" className="col text-start">
             <p>Welcome to my portfolio site.</p>
-            <p className="h1">Hi! I'm Elvina Amadea Tanaka</p>
+            <p className="h1">Hi! I'm El</p>
             <p>Computer Science Undergraduate</p>
             <div className="buttons d-flex align-items-center">
               <a
@@ -30,10 +30,10 @@ function Home() {
           </div>
           <div id="right" className="col">
             <p>
-              My name is Elvina Amadea Tanaka, currently pursuing Computer
-              Science Degree at Bina Nusantara University. I specifically learn
-              around Artificial Intelligence, Machine Learning, Data Mining, and
-              Software Development.
+              My name is <strong>Elvina Amadea Tanaka</strong>, currently
+              pursuing Computer Science Degree at Bina Nusantara University. I
+              specifically learn around Artificial Intelligence, Machine
+              Learning, Data Mining, and Software Development.
             </p>
           </div>
         </div>

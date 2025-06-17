@@ -34,7 +34,7 @@ const projects = [
     add: "Software Engineer Module - Group Project",
     role: "Software design, frontend coding using Svelte",
     image: img3,
-    link: "https://drive.google.com/file/d/1pzFyEboBtMoYJb4Fo5ELwHE3fk-_OLrF/view?usp=sharing",
+    link: "https://github.com/Steven4565/class-gamification",
   },
   {
     id: 4,

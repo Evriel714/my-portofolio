@@ -20,7 +20,7 @@ function Projects() {
   return (
     <section id="projects" className="pt-5 pb-5">
       <div className="container mt-5">
-        <h2 className="mb-4">My Projects</h2>
+        <h2 className="mb-5">My Projects</h2>
         <div className="row">
           {projects.map((project) => (
             <div className="col-md-4 mb-4" key={project.id}>
