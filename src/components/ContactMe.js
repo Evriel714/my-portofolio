@@ -1,6 +1,6 @@
 function ContactMe() {
   return (
-    <section id="contactme" className="pt-5 pb-5">
+    <section id="contactme" className="pt-5 pb-5 bg-light">
       <div className="container mt-5">
         <h2>Contact Me</h2>
         <p>

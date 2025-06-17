@@ -2,7 +2,7 @@ import React from "react";
 
 function Nav() {
   return (
-    <nav className="d-flex navbar navbar-expand-lg navbar-light bg-light justify-content-between px-5">
+    <nav className="d-flex navbar navbar-expand-lg navbar-light bg-light justify-content-between px-5 fixed-top shadow">
       <a className="navbar-brand" href="#">
         El's Portfolio
       </a>
@@ -26,6 +26,11 @@ function Nav() {
           <li className="nav-item active">
             <a className="nav-link" href="#home">
               Home
+            </a>
+          </li>
+          <li className="nav-item active">
+            <a className="nav-link" href="#aboutme">
+              About Me
             </a>
           </li>
           <li className="nav-item">

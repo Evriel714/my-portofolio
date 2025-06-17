@@ -1,7 +1,7 @@
 function Home() {
   return (
     <section id="home" className="pt-5">
-      <div className="container mt-5 d-flex justify-content-between">
+      <div className="container mt-5 mb-5 d-flex justify-content-between">
         <div className="row">
           <div id="left" className="col text-start">
             <p>Welcome to my portfolio site.</p>

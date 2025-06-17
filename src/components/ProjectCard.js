@@ -1,6 +1,6 @@
 import React from "react";
 
-function ProjectCard({ title, description, image, link }) {
+function ProjectCard({ title, description, image, onView }) {
   return (
     <div className="card h-100" style={{ width: "20rem" }}>
       <img
@@ -12,14 +12,9 @@ function ProjectCard({ title, description, image, link }) {
       <div className="card-body d-flex flex-column">
         <h5 className="card-title">{title}</h5>
         <p className="card-text flex-grow-1">{description}</p>
-        <a
-          href={link}
-          className="btn btn-primary mt-auto"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <button onClick={onView} className="btn btn-primary mt-auto">
           View Project
-        </a>
+        </button>
       </div>
     </div>
   );
