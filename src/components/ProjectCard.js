@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard({ title, description, image, onView }) {
   return (
-    <div className="card h-100" style={{ width: "20rem" }}>
+    <div className="card h-100 hover-shadow" style={{ width: "20rem" }}>
       <img
         className="card-img-top"
         src={image}
