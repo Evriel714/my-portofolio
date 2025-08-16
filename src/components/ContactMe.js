@@ -12,18 +12,10 @@ function ContactMe() {
               elvina.amadea@gmail.com
             </p>
             <p>
-              <i className="bi bi-phone-fill me-2"></i> Phone Number (WhatsApp):
-              +62 897-5577-117
-            </p>
-            <p>
               <i className="bi bi-linkedin me-2"></i> LinkedIn:{" "}
               <a href="https://www.linkedin.com/in/elvina-amadea-tanaka-71104b26a/">
                 Elvina Amadea Tanaka
               </a>
-            </p>
-            <p>
-              <i className="bi bi-geo-alt-fill me-2"></i> Based in: Solo,
-              Indonesia (GMT+7)
             </p>
           </div>
 
